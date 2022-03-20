@@ -1,0 +1,48 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  color: hsl(0, 0%, 100%);
+}
+
+.containerRating {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 25em;
+  width: 20em;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.containerSubmitted {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  height: 25em;
+  width: 20em;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.RatingH1 {
+  padding: 1em;
+}
+
+.RatingP {
+  padding: 1em;
+}
+
+.RatingBtn {
+  padding: 2em;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  margin: 3em;
+}

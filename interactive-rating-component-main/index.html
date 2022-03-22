@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
+    <script src="script.js"></script>
 
     <link
       rel="icon"
@@ -11,14 +12,20 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Interactive rating component</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="containerRating active">
-      <div>
+    <div class="containerRating">
+      <div class="RatingIconDiv">
         <img class="RatingIcon" src="./images/icon-star.svg" alt="stat icon" />
       </div>
       <h1 class="RatingH1">How did we do?</h1>
@@ -26,8 +33,15 @@
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>
-      <p class="RatingNums">1 2 3 4 5</p>
-      <button class="RatingBtn">Submit</button>
+      <div class="RatingNumDiv">
+        <div class="Rating">1</div>
+        <div class="Rating">2</div>
+        <div class="Rating">3</div>
+        <div class="Rating">4</div>
+        <div class="Rating">5</div>
+
+        <button class="RatingBtn">SUBMIT</button>
+      </div>
     </div>
     <!-- Rating state end -->
 

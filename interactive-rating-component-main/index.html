@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script defer src="script.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <script src="script.js"></script>
 
     <link
       rel="icon"
@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <div class="containerRating">
+    <div class="rateContainer">
       <div class="RatingIconDiv">
         <img class="RatingIcon" src="./images/icon-star.svg" alt="stat icon" />
       </div>
@@ -46,19 +46,17 @@
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="containerSubmitted">
-      <div>
-        <img
-          class="SubmittedImg"
-          src="./images/illustration-thank-you.svg"
-          alt="Thank you img"
-        />
+    <div class="submitContainer">
+      <div class="subImgDiv">
+        <img src="./images/illustration-thank-you.svg" alt="Thank you img" />
       </div>
-      <div class="SubmittedDivP">
-        <p>You selected out of 5</p>
+      <div class="subPDiv">
+        <p class="subDivP">
+          You selected <span class="ratePick"> 5 </span> out of 5
+        </p>
       </div>
-      <h1 class="SubmittedH1">Thank you!</h1>
-      <p>
+      <h1 class="subH1">Thank you!</h1>
+      <p class="subP">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>

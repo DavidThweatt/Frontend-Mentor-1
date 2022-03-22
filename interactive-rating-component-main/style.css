@@ -8,7 +8,7 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-.containerRating {
+.rateContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,18 +17,8 @@ body {
   border: none;
   border-radius: 15px;
   padding: 5px;
+  margin-top: 200px;
   background-color: hsl(213, 19%, 18%);
-}
-
-.containerSubmitted {
-  display: none;
-  justify-content: center;
-  flex-direction: column;
-  height: 25em;
-  width: 20em;
-  border: 1px solid;
-  border-radius: 15px;
-  padding: 5px;
 }
 
 .RatingIconDiv {
@@ -96,12 +86,77 @@ body {
   color: hsl(25, 97%, 53%);
 }
 
+.activeRate {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+
+.submitContainer {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  height: 23em;
+  width: 20em;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 200px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.subImgDiv {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0 0 0;
+}
+
+.subH1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.subDivP {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 14px;
+  margin: auto;
+}
+
+.ratePick {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 14px;
+  margin: auto;
+}
+
+.subPDiv {
+  display: flex;
+  justify-content: center;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 54%, 0.2);
+  border-radius: 25px;
+  width: 10em;
+  height: 2em;
+  margin: 2em auto;
+}
+
+.subP {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  line-height: 1.5em;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+}
+
 .attribution {
   position: absolute;
   bottom: 0;
   margin: 3em;
-}
-
-.active {
-  background-color: hsl(217, 12%, 63%);
 }
